@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    color: #515151;
+    background: #43c9ce;
+    background: linear-gradient(0deg, #185aad, #43cea2);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    color: #fff;
+    margin-top: 5%;
+}
+section{
+    margin-top: 10%;
+}
+#card{
+    width: 500px;
+    /* box-shadow: 0 10px 0 #515154; */
+}
+#weather{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    background-color: #185aad;
+    padding: 20px 0;
+    height: 10vh;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#weather > h1{
+    margin: 0;
+    font-size: 3em;
+}
+#location{
+    color: #fff;
+}
+#city{
+    margin: 0;
+    font-size: 2em;
+}
+#state{
+    margin-top: 0;
+}
+#info{
+    display: flex;
+    background-color: #fff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#info > *{
+    border-right: 1px solid #e6e6e6;
+    padding: 20px;
+    flex: 1;
+}
+#info > *:last-child{
+    border: 0;
+}
+form{
+    position: relative;
+    width: 500px;
+    max-width: 100%;
+    /* border: 1px solid red; */
+}
+form input{
+    border: 0;
+    border-radius: 50px;
+    font-size: 16px;
+    padding: 15px 30px;
+    width: 50%;
+    outline: 0;
+}
+button{
+    cursor: pointer;
+    background-color: #e056fd;
+    border: 0;
+    border-radius: 50px;
+    padding: 13px 30px;
+    right: 2px;
+    top: 2px;
+}
+button:active{
+    transform: scale(0.8);
+}
